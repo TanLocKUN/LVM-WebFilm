@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to right, #fbd205, #ff964c, #ff6697, #ec69db, #6380fa);
+}
+
+.container{
+  padding: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login_form{
+  width: 450px;
+  min-height: 700px;
+  background: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.9),
+  rgba(255, 255, 255, 0.1));
+  border-radius: 20px;
+  -webkit-box-shadow: 6px 8px 20px -3px rgba(0,0,0,0.57); 
+  box-shadow: 6px 8px 20px -3px rgba(0,0,0,0.57);
+  backdrop-filter: blur(2rem);
+}
+
+.login_title{
+  text-align: center;
+  padding: 100px;
+  background: #CFBD46;
+  background: radial-gradient(circle farthest-side at left center, #CFBD46 0%, #CF3D19 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.login__item{
+  margin: 10px 80px 0; 
+}
+
+.input__item{
+  width: 280px;
+  height: 45px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: #edebeb;
+  padding: 0 20px;
+}
+
+.input__item:focus{
+  outline: none;
+  transition: ease 0.4s;
+  -webkit-box-shadow: 8px 7px 12px -4px rgba(255,162,62,0.69); 
+  box-shadow: 8px 7px 12px -4px rgba(255,162,62,0.69);
+}
+
+
+.btn__item{
+  margin: 20px 0 0 60px;
+  border: none;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  background: rgb(255, 165, 0);
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+.btn__item:hover{
+  transition: ease 0.4s;
+  -webkit-box-shadow: 8px 7px 12px -4px rgba(48, 0, 241, 0.69); 
+  box-shadow: 8px 7px 12px -4px rgba(239, 146, 23, 0.69);
+  margin-top: 18px;
+}
+
+.btn__item:focus{
+  outline: none;
+}
+
+.error{
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.circle1,
+.circle2{
+  background: white;
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.9), rgba(255,255,255,0.1));
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.circle1{
+  top: 1%;
+  right: 30%;
+}
+
+.circle2{
+  bottom: 1%;
+  left: 30%;
+}
